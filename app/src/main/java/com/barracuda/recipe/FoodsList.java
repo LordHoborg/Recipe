@@ -10,6 +10,5 @@ public class FoodsList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.foods_list);
 
-
     }
 }

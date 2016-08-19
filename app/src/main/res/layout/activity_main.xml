@@ -11,7 +11,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.barracuda.recipe.MainActivity"
     android:background="@drawable/foodsbackground"
-    android:contentDescription="@string/app_name">
+    android:contentDescription="@string/app_name"
+    android:gravity="center">
 
     <ImageView
         android:layout_width="match_parent"
@@ -23,7 +24,9 @@
         android:layout_height="wrap_content"
         android:background="@color/colorCyan"
         android:id="@+id/foods_list"
-        android:text="لیست غذاها" />
+        android:text="لیست غذاها"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
     <Button
         android:layout_width="match_parent"
@@ -31,7 +34,9 @@
         android:id="@+id/available_ingr_list"
         android:background="@color/colorCyan"
         android:layout_marginTop="16dp"
-        android:text="مواد اولیه"/>
+        android:text="مواد اولیه"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>

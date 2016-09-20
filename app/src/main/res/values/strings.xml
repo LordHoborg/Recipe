@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Recipe</string>
+    <string name="food_sabzi_polo">سبزی پلو</string>
+    <string name="food_adas_polo">عدس پلو</string>
+    <string name="food_khoresht_sabzi">خورشت سبزی</string>
+    <string name="food_ash_reshteh">آش رشته</string>
+    <string name="food_macaroni">ماکارونی</string>
+
+    <string-array name="foods_list_array">
+        <item>@string/food_sabzi_polo</item>
+        <item>@string/food_adas_polo</item>
+        <item>@string/food_khoresht_sabzi</item>
+        <item>@string/food_ash_reshteh</item>
+        <item>@string/food_macaroni</item>
+    </string-array>
 </resources>

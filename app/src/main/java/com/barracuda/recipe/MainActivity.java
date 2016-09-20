@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         if (view == foodsListButton)
-            startActivity(new Intent(this, MainFragment.class));
+            startActivity(new Intent(this, FoodsList.class));
 
     }
 }
